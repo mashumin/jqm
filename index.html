@@ -5,12 +5,19 @@
     <title>机器猫</title>
 </head>
 <style>
+    body,html{
+        padding: 0;
+        margin:0;
+        background: #82D3F1;
+    }
     .box{
         width: 390px;
         height:480px;
-        margin: 0 auto;
-        margin-top: 50px;
-        position: relative;
+
+        position: absolute;
+        margin:  auto;
+        top:0;bottom: 0;
+        left:0;right: 0;
         perspective: 800px;
         perspective-origin: center center center;
     }
@@ -171,7 +178,7 @@
     .fang{
         width: 40px;
         height:20px;
-        background:#fff;
+        background:#82D3F1;
         position: absolute;
         left: 0;right: 0;margin: auto;
         bottom:-22px;
